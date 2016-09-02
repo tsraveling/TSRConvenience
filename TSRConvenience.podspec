@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TSRConvenience"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A set of concise convenience functions that speed up working in Swift."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    A set of concise convenience functions that speed up working in Swift.
+                    A set of concise convenience functions that speed up working in Swift. More description will go here later, but for now, you get what you get.
                    DESC
 
   s.homepage     = "https://github.com/tsraveling/TSRConvenience"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TSRConvenience", "TSRConvenience/**/*.{swift}"
+  s.source_files  = "TSRConvenience/**/*.{swift}"
   s.exclude_files = "TSRConvenience/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
