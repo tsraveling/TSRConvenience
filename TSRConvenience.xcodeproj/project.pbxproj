@@ -38,6 +38,7 @@
 		036F38E81D79DC3200677E97 /* TSRConvenienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSRConvenienceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		036F38ED1D79DC3200677E97 /* TSRConvenienceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSRConvenienceTests.swift; sourceTree = "<group>"; };
 		036F38EF1D79DC3200677E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037B56F31D79F07200856812 /* TSRConvenience.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TSRConvenience.podspec; sourceTree = SOURCE_ROOT; };
 		03C14D0B1D79DFA1006F5E38 /* UITextField+TSRConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+TSRConvenience.swift"; sourceTree = "<group>"; };
 		03C14D0D1D79DFD3006F5E38 /* Int+TSRConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+TSRConvenience.swift"; sourceTree = "<group>"; };
 		03C14D0F1D79DFE1006F5E38 /* Float+TSRConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+TSRConvenience.swift"; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 			children = (
 				03C14D0A1D79DF93006F5E38 /* Class Extensions */,
 				036F38E11D79DC3200677E97 /* TSRConvenience.h */,
+				037B56F31D79F07200856812 /* TSRConvenience.podspec */,
 				036F38E31D79DC3200677E97 /* Info.plist */,
 			);
 			path = TSRConvenience;
