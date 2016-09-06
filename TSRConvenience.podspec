@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TSRConvenience"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A set of concise convenience functions that speed up working in Swift."
 
   # This description is used to generate tags and improve search results.
@@ -118,8 +118,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "Foundation"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.framework  = "Foundation"
+  s.frameworks = "Foundation", "UIKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
