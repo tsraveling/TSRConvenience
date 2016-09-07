@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TSRConvenience"
-  s.version      = "0.0.4"
+  s.version      = "0.1.0"
   s.summary      = "A set of concise convenience functions that speed up working in Swift."
 
   # This description is used to generate tags and improve search results.
