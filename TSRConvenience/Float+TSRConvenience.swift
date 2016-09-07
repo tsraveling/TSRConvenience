@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension Float {
+public extension Float {
     
     var radiansToDegrees: Float { return (self * 180) / Float(M_PI) }
 }

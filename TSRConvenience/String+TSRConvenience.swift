@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension String {
+public extension String {
     
     func heightWithConstrainedWidth(width: CGFloat, font: UIFont) -> CGFloat {
         let constraintRect = CGSize(width: width, height: CGFloat.max)

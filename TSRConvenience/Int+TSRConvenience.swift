@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension Int {
+public extension Int {
     
     func formattedValue() -> String {
         

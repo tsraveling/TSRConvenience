@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     
     static func loadFromURL(url : NSURL, completion : (img : UIImage?)->Void) {
         

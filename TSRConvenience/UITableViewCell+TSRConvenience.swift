@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITableViewCell {
+public extension UITableViewCell {
     
     static func calculateRowHeight(default_height: CGFloat, label_width: CGFloat, label_height : CGFloat, font: UIFont, text: String) -> CGFloat {
         

@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITextField {
+public extension UITextField {
     
     func setPlaceholderColor(col : UIColor) {
         

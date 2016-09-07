@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension NSAttributedString {
+public extension NSAttributedString {
     
     func heightWithConstrainedWidth(width: CGFloat) -> CGFloat {
         
