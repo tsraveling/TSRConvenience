@@ -10,6 +10,7 @@
 		036F38E21D79DC3200677E97 /* TSRConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 036F38E11D79DC3200677E97 /* TSRConvenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		036F38E91D79DC3200677E97 /* TSRConvenience.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036F38DE1D79DC3200677E97 /* TSRConvenience.framework */; };
 		036F38EE1D79DC3200677E97 /* TSRConvenienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F38ED1D79DC3200677E97 /* TSRConvenienceTests.swift */; };
+		037126C41D82310800C27696 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037126C31D82310800C27696 /* Util.swift */; };
 		03C14D0C1D79DFA1006F5E38 /* UITextField+TSRConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C14D0B1D79DFA1006F5E38 /* UITextField+TSRConvenience.swift */; };
 		03C14D0E1D79DFD3006F5E38 /* Int+TSRConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C14D0D1D79DFD3006F5E38 /* Int+TSRConvenience.swift */; };
 		03C14D101D79DFE1006F5E38 /* Float+TSRConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C14D0F1D79DFE1006F5E38 /* Float+TSRConvenience.swift */; };
@@ -38,6 +39,7 @@
 		036F38E81D79DC3200677E97 /* TSRConvenienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSRConvenienceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		036F38ED1D79DC3200677E97 /* TSRConvenienceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSRConvenienceTests.swift; sourceTree = "<group>"; };
 		036F38EF1D79DC3200677E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037126C31D82310800C27696 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		037B56F31D79F07200856812 /* TSRConvenience.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TSRConvenience.podspec; sourceTree = SOURCE_ROOT; };
 		03C14D0B1D79DFA1006F5E38 /* UITextField+TSRConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+TSRConvenience.swift"; sourceTree = "<group>"; };
 		03C14D0D1D79DFD3006F5E38 /* Int+TSRConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+TSRConvenience.swift"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				03C14D151D79DFFF006F5E38 /* UIImage+TSRConvenience.swift */,
 				03C14D191D79E01A006F5E38 /* NSAttributedString+TSRConvenience.swift */,
 				03C14D1B1D79E025006F5E38 /* UIColor+TSRConvenience.swift */,
+				037126C31D82310800C27696 /* Util.swift */,
 			);
 			name = "Class Extensions";
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C14D0C1D79DFA1006F5E38 /* UITextField+TSRConvenience.swift in Sources */,
+				037126C41D82310800C27696 /* Util.swift in Sources */,
 				03C14D101D79DFE1006F5E38 /* Float+TSRConvenience.swift in Sources */,
 				03C14D1A1D79E01A006F5E38 /* NSAttributedString+TSRConvenience.swift in Sources */,
 				03C14D141D79DFF8006F5E38 /* UITableViewCell+TSRConvenience.swift in Sources */,
