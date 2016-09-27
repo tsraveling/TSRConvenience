@@ -17,10 +17,10 @@ public extension NSAttributedString {
         return boundingBox.height
     }
     
-    static func stringWithHTML(_ html: String) -> NSAttributedString {
+    static func stringWithHTML(_ html: String, css_file: String) -> NSAttributedString {
         
         // Get CSS from file
-        let css_path = Bundle.main.path(forResource: "base", ofType: "css")!
+        let css_path = Bundle.main.path(forResource: css_file, ofType: "css")!
         let css_string : String
         do {
             css_string = try String(contentsOfFile: css_path)
