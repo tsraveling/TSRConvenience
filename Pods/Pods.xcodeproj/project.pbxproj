@@ -7,25 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FDDC971F84B36DE0DA0E05115FB12B9 /* Pods-TSRConvenience-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE3F52180852716CA47AC2096701369 /* Pods-TSRConvenience-dummy.m */; };
+		6FDDC971F84B36DE0DA0E05115FB12B9 /* Pods-TSRConvenience-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E47A4BE2F7E31CEEE72AE2DC64F074 /* Pods-TSRConvenience-dummy.m */; };
 		CCA9C8817AF66927A14A72A1E9A74E7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		DF695723B553ECCEF40E7C78F5304672 /* Pods-TSRConvenience-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54490FD0F2C78771D5BB91A6BE664C21 /* Pods-TSRConvenience-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF695723B553ECCEF40E7C78F5304672 /* Pods-TSRConvenience-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 466F0D8EC4D0539047A7479BB71455DB /* Pods-TSRConvenience-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		001F833C2AFA1B3E0E463541B1FA6CC7 /* Pods-TSRConvenience-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSRConvenience-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1CE935D24D02DDBA8880E95E97E8ADA0 /* Pods-TSRConvenience.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TSRConvenience.modulemap"; sourceTree = "<group>"; };
-		28B4CD005ACC290F4ABD8DD6F7EEB399 /* Pods-TSRConvenience-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSRConvenience-frameworks.sh"; sourceTree = "<group>"; };
-		3BE3F52180852716CA47AC2096701369 /* Pods-TSRConvenience-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSRConvenience-dummy.m"; sourceTree = "<group>"; };
-		54490FD0F2C78771D5BB91A6BE664C21 /* Pods-TSRConvenience-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSRConvenience-umbrella.h"; sourceTree = "<group>"; };
-		7BD563A9A0C41C716BDEFCB0F5D51358 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		848419B0C9FBF09CBC0C571BFAEEF69E /* Pods-TSRConvenience-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSRConvenience-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DDB8C5BDE1C1A4BDA50858FE1AD6E2E /* Pods-TSRConvenience-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSRConvenience-resources.sh"; sourceTree = "<group>"; };
+		3003D376B4A971EA2ADC86EECA0D3229 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466F0D8EC4D0539047A7479BB71455DB /* Pods-TSRConvenience-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSRConvenience-umbrella.h"; sourceTree = "<group>"; };
+		56E47A4BE2F7E31CEEE72AE2DC64F074 /* Pods-TSRConvenience-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSRConvenience-dummy.m"; sourceTree = "<group>"; };
+		6CFA03F8FFBF395B8C0A474FD3038E77 /* Pods-TSRConvenience-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSRConvenience-acknowledgements.plist"; sourceTree = "<group>"; };
+		720A60DF2C82F7871049D1B57444676A /* Pods-TSRConvenience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSRConvenience.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99E6E158796661D475742DDDAC099472 /* Pods-TSRConvenience-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSRConvenience-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C0FA0CCC00A8FF4AE1C8C2985B009506 /* Pods_TSRConvenience.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSRConvenience.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD00EBC2ECF1C7E51086E3DD0F92EA9 /* Pods-TSRConvenience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSRConvenience.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DF159C74B7EA686B3D4570B0296C1A53 /* Pods-TSRConvenience-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSRConvenience-resources.sh"; sourceTree = "<group>"; };
-		E2853BA589FA8A9A88A7D1004691F748 /* Pods-TSRConvenience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSRConvenience.release.xcconfig"; sourceTree = "<group>"; };
-		F07896D69C27797DE22A0A48CC2CD039 /* Pods-TSRConvenience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSRConvenience.debug.xcconfig"; sourceTree = "<group>"; };
+		E0044D88144A68133E741E2BDCB85321 /* Pods-TSRConvenience.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TSRConvenience.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,24 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C48F361BEC42EA7C337D915056247F9 /* Pods-TSRConvenience */ = {
-			isa = PBXGroup;
-			children = (
-				7BD563A9A0C41C716BDEFCB0F5D51358 /* Info.plist */,
-				1CE935D24D02DDBA8880E95E97E8ADA0 /* Pods-TSRConvenience.modulemap */,
-				001F833C2AFA1B3E0E463541B1FA6CC7 /* Pods-TSRConvenience-acknowledgements.markdown */,
-				848419B0C9FBF09CBC0C571BFAEEF69E /* Pods-TSRConvenience-acknowledgements.plist */,
-				3BE3F52180852716CA47AC2096701369 /* Pods-TSRConvenience-dummy.m */,
-				28B4CD005ACC290F4ABD8DD6F7EEB399 /* Pods-TSRConvenience-frameworks.sh */,
-				DF159C74B7EA686B3D4570B0296C1A53 /* Pods-TSRConvenience-resources.sh */,
-				54490FD0F2C78771D5BB91A6BE664C21 /* Pods-TSRConvenience-umbrella.h */,
-				F07896D69C27797DE22A0A48CC2CD039 /* Pods-TSRConvenience.debug.xcconfig */,
-				E2853BA589FA8A9A88A7D1004691F748 /* Pods-TSRConvenience.release.xcconfig */,
-			);
-			name = "Pods-TSRConvenience";
-			path = "Target Support Files/Pods-TSRConvenience";
-			sourceTree = "<group>";
-		};
 		34221F7AFCA6A7F37BF6D6E205D0F43B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,16 +61,25 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				34221F7AFCA6A7F37BF6D6E205D0F43B /* Products */,
-				875079FACE6E34FA79B57C112AFD9431 /* Targets Support Files */,
+				C6B7E33177CF9DA26D2FC3492F89A79C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		875079FACE6E34FA79B57C112AFD9431 /* Targets Support Files */ = {
+		B54F44244BFA6BB52863BF290C921882 /* Pods-TSRConvenience */ = {
 			isa = PBXGroup;
 			children = (
-				0C48F361BEC42EA7C337D915056247F9 /* Pods-TSRConvenience */,
+				3003D376B4A971EA2ADC86EECA0D3229 /* Info.plist */,
+				E0044D88144A68133E741E2BDCB85321 /* Pods-TSRConvenience.modulemap */,
+				99E6E158796661D475742DDDAC099472 /* Pods-TSRConvenience-acknowledgements.markdown */,
+				6CFA03F8FFBF395B8C0A474FD3038E77 /* Pods-TSRConvenience-acknowledgements.plist */,
+				56E47A4BE2F7E31CEEE72AE2DC64F074 /* Pods-TSRConvenience-dummy.m */,
+				2DDB8C5BDE1C1A4BDA50858FE1AD6E2E /* Pods-TSRConvenience-resources.sh */,
+				466F0D8EC4D0539047A7479BB71455DB /* Pods-TSRConvenience-umbrella.h */,
+				CBD00EBC2ECF1C7E51086E3DD0F92EA9 /* Pods-TSRConvenience.debug.xcconfig */,
+				720A60DF2C82F7871049D1B57444676A /* Pods-TSRConvenience.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-TSRConvenience";
+			path = "Target Support Files/Pods-TSRConvenience";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -98,6 +88,14 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6B7E33177CF9DA26D2FC3492F89A79C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B54F44244BFA6BB52863BF290C921882 /* Pods-TSRConvenience */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,53 +167,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+		471EC92CBA96B60B6D1C835596848CEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD00EBC2ECF1C7E51086E3DD0F92EA9 /* Pods-TSRConvenience.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		7308CBCCC78DA2AD1B1694B768A7158A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F07896D69C27797DE22A0A48CC2CD039 /* Pods-TSRConvenience.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -244,11 +202,97 @@
 			};
 			name = Debug;
 		};
-		C2DBFCF6FFB2BF8120C107ABFD432AF7 /* Release */ = {
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2853BA589FA8A9A88A7D1004691F748 /* Pods-TSRConvenience.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7185B6C433E2A19C3FC381EA43BA7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720A60DF2C82F7871049D1B57444676A /* Pods-TSRConvenience.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -277,52 +321,14 @@
 			};
 			name = Release;
 		};
-		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		14577F0C9E0F2E12558A62F5E2176A15 /* Build configuration list for PBXNativeTarget "Pods-TSRConvenience" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7308CBCCC78DA2AD1B1694B768A7158A /* Debug */,
-				C2DBFCF6FFB2BF8120C107ABFD432AF7 /* Release */,
+				471EC92CBA96B60B6D1C835596848CEB /* Debug */,
+				D7185B6C433E2A19C3FC381EA43BA7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -330,8 +336,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				034014829C1E4434983CF3A690C12017 /* Debug */,
-				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
