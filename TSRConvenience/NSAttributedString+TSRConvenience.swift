@@ -10,17 +10,17 @@ import UIKit
 
 public extension NSAttributedString {
     
-    func heightWithConstrainedWidth(width: CGFloat) -> CGFloat {
+    func heightWithConstrainedWidth(_ width: CGFloat) -> CGFloat {
         
-        let constraintRect = CGSize(width: width, height: CGFloat.max)
-        let boundingBox = self.boundingRectWithSize(constraintRect, options: .UsesLineFragmentOrigin, context: nil)
+        let constraintRect = CGSize(width: width, height: CGFloat.greatestFiniteMagnitude)
+        let boundingBox = self.boundingRect(with: constraintRect, options: .usesLineFragmentOrigin, context: nil)
         return boundingBox.height
     }
     
-    static func stringWithHTML(html: String) -> NSAttributedString {
+    static func stringWithHTML(_ html: String) -> NSAttributedString {
         
         // Get CSS from file
-        let css_path = NSBundle.mainBundle().pathForResource("base", ofType: "css")!
+        let css_path = Bundle.main.path(forResource: "base", ofType: "css")!
         let css_string : String
         do {
             css_string = try String(contentsOfFile: css_path)
@@ -45,7 +45,7 @@ public extension NSAttributedString {
         // Generate attributed text
         let return_string : NSAttributedString
         do {
-            return_string = try NSAttributedString(data: base_html.dataUsingEncoding(NSUTF8StringEncoding)!, options: [NSDocumentTypeDocumentAttribute : NSHTMLTextDocumentType], documentAttributes: nil)
+            return_string = try NSAttributedString(data: base_html.data(using: String.Encoding.utf8)!, options: [NSDocumentTypeDocumentAttribute : NSHTMLTextDocumentType], documentAttributes: nil)
         } catch {
             return_string = NSAttributedString(string: "Invalid Source")
         }

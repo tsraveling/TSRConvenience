@@ -10,9 +10,9 @@ import UIKit
 
 public extension UITableViewCell {
     
-    static func calculateRowHeight(default_height: CGFloat, label_width: CGFloat, label_height : CGFloat, font: UIFont, text: String) -> CGFloat {
+    static func calculateRowHeight(_ default_height: CGFloat, label_width: CGFloat, label_height : CGFloat, font: UIFont, text: String) -> CGFloat {
         
-        let screen_width = UIScreen.mainScreen().bounds.size.width
+        let screen_width = UIScreen.main.bounds.size.width
         let horizontal_margin = 375 - label_width
         let real_label_width = screen_width - horizontal_margin
         let vertical_margin = default_height - label_height

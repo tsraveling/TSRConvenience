@@ -12,13 +12,13 @@ public extension Int {
     
     func formattedValue() -> String {
         
-        return self.formattedValue(.DecimalStyle)
+        return self.formattedValue(.decimal)
     }
     
-    func formattedValue(style : NSNumberFormatterStyle) -> String {
+    func formattedValue(_ style : NumberFormatter.Style) -> String {
         
-        let nf = NSNumberFormatter()
+        let nf = NumberFormatter()
         nf.numberStyle = style
-        return nf.stringFromNumber(NSNumber(integer: self))!
+        return nf.string(from: NSNumber(value: self as Int))!
     }
 }
