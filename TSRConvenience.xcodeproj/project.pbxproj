@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		036309D31D9AFE14005251B9 /* CollectionType+TSRConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036309D21D9AFE14005251B9 /* CollectionType+TSRConvenience.swift */; };
+		036DEF6C1DBE9DE200B909BD /* UIScrollView+TSRConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036DEF6B1DBE9DE200B909BD /* UIScrollView+TSRConvenience.swift */; };
 		036F38E21D79DC3200677E97 /* TSRConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 036F38E11D79DC3200677E97 /* TSRConvenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		036F38E91D79DC3200677E97 /* TSRConvenience.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036F38DE1D79DC3200677E97 /* TSRConvenience.framework */; };
 		036F38EE1D79DC3200677E97 /* TSRConvenienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F38ED1D79DC3200677E97 /* TSRConvenienceTests.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		036309D21D9AFE14005251B9 /* CollectionType+TSRConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionType+TSRConvenience.swift"; sourceTree = "<group>"; };
+		036DEF6B1DBE9DE200B909BD /* UIScrollView+TSRConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+TSRConvenience.swift"; sourceTree = "<group>"; };
 		036F38DE1D79DC3200677E97 /* TSRConvenience.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSRConvenience.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		036F38E11D79DC3200677E97 /* TSRConvenience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSRConvenience.h; sourceTree = "<group>"; };
 		036F38E31D79DC3200677E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				03C14D1B1D79E025006F5E38 /* UIColor+TSRConvenience.swift */,
 				037126C31D82310800C27696 /* Util.swift */,
 				036309D21D9AFE14005251B9 /* CollectionType+TSRConvenience.swift */,
+				036DEF6B1DBE9DE200B909BD /* UIScrollView+TSRConvenience.swift */,
 			);
 			name = "Class Extensions";
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				03C14D121D79DFE8006F5E38 /* String+TSRConvenience.swift in Sources */,
 				03C14D0E1D79DFD3006F5E38 /* Int+TSRConvenience.swift in Sources */,
 				03C14D1C1D79E025006F5E38 /* UIColor+TSRConvenience.swift in Sources */,
+				036DEF6C1DBE9DE200B909BD /* UIScrollView+TSRConvenience.swift in Sources */,
 				03C14D161D79DFFF006F5E38 /* UIImage+TSRConvenience.swift in Sources */,
 				036309D31D9AFE14005251B9 /* CollectionType+TSRConvenience.swift in Sources */,
 			);
